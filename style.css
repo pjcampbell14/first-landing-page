@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #202938;
+}
+
+body {
+  font-family: Roboto, Sans-serif;
+  font-size: 14px;
+  color: #f9fafe;
+}
+
+.top-bar-section,
+.hero {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.top-bar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar li {
+  font-size: 12px;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.left h2 {
+  font-size: 24px;
+  padding: 5px 0;
+}
+
+.left p {
+  color: #6d747e;
+  padding: 5px 0;
+}
+
+.right {
+  background: white;
+  width: 200px;
+}
+
+/* Random Info Section */
+.random-information-section {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto;
+  align-items: center;
+  column-gap: 10px;
+  height: 200px;
+}
+
+.quote-section {
+  font-size: 16px;
+  font-style: italic;
+  background: #e6e7eb;
+}
+
+.call-to-action {
+  width: 500px;
+  background: #3b82f6;
+  display: flex;
+}
